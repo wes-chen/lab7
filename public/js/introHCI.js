@@ -14,5 +14,6 @@ function initializePage() {
 
 function likeClicked(e) {
 	console.log("Like clicked!");
+	ga('require', 'OPT-K5G32LQ');
 	ga("send", "event", 'like', 'click');
 }
